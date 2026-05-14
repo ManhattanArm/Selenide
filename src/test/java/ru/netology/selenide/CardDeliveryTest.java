@@ -31,10 +31,10 @@ public class CardDeliveryTest {
                 .press(Keys.chord(Keys.SHIFT, Keys.HOME), Keys.BACK_SPACE)
                 .setValue(planningDate);
         $("[data-test-id='name'] input")
-                //.press(Keys.chord(Keys.SHIFT, Keys.HOME), Keys.BACK_SPACE)
+                .press(Keys.chord(Keys.SHIFT, Keys.HOME), Keys.BACK_SPACE)
                 .sendKeys("Мария Склодовская-Кюри");
         $("[data-test-id='phone'] input")
-                //.press(Keys.chord(Keys.SHIFT, Keys.HOME), Keys.BACK_SPACE)
+                .press(Keys.chord(Keys.SHIFT, Keys.HOME), Keys.BACK_SPACE)
                 .setValue("+79876543210");
         $("[data-test-id='agreement']").click();
         $$("button").find(Condition.text("Забронировать")).click();
