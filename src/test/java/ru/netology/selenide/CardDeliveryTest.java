@@ -19,7 +19,7 @@ public class CardDeliveryTest {
     }
 
     @Test
-    void shouldCarsDelivery() {
+    void shouldCardsDelivery() {
 
         String planningDate = generateDate(5, "dd.MM.yyyy");
 
